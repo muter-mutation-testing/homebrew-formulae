@@ -1,8 +1,8 @@
 class Muter < Formula
 	desc "Automated mutation testing for Swift"
 	homepage "https://github.com/SeanROlszewski/muter/"
-	url "https://github.com/SeanROlszewski/muter/archive/v6.zip"
-	sha256 "a142d3d229d4073b013d8ed19ee19bcc4f88902f93435d6c70ebdf3de0887500"
+	url "https://github.com/SeanROlszewski/muter/archive/v7.zip"
+	sha256 "78dbcb637307cc5d664c176b47b758477c3016d63ab96ca3fe9cec6a4542e46d"
 	
 	def install
 		system "make", "install", "prefix=#{prefix}"
